@@ -1,0 +1,16 @@
+
+
+# 忽略 venv 文件夹
+venv/
+
+# 忽略 test_main.http 文件
+test_main.http
+
+# 忽略 logs 文件夹里的所有内容（但保留空文件夹）
+logs/*
+
+# 忽略 storage 文件夹里的所有内容（但保留空文件夹）
+storage/*
+
+__pycache__/
+.idea/
